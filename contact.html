@@ -102,7 +102,18 @@ Choose Your Favourite colour <input type="color">
 
 <hr color="red">
 
-When will you need delivery <input type="datetime-local">
+
+<br>
+
+<form>
+
+When will you need delivery
+
+<br>
+
+<label for="datemax"> Enter a date before 01-01-2025:</label> <input type="date" id="datemax" name="datemax" max="2023-12-31">
+<label for="datemin"> Enter a date after 01-01-2023:</label> <input type="date" id="datemin" name="datemin" min="01-01-2025">
+
 
 <br>
 
@@ -200,6 +211,16 @@ Please share your image <input type="file">
 
 <br>
 
+<h1>Let's Talk about yourself</h1>
+
+
+<form>
+
+Tell me about your.
+
+<label for="birthday">Birthday:</label>
+
+<input type="date" id="birthday" name="birthday">
 
 <input type="submit" value="Submit">
 
@@ -208,6 +229,26 @@ Please share your image <input type="file">
 <br>
 
 <hr color="red">
+
+</form>
+
+<br>
+
+<form>
+
+<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+
+
+</form>
+
+<br>
+
+<form>
+<label for="quantity">Please Share your Precious Comments about us (Give us star Between 1 to 7):</label>
+<input type="number" id="quantity" name="quantity" min="1" max="7">
+</form>
+
+
 
 
 </body>
@@ -218,6 +259,8 @@ Please share your image <input type="file">
 
 <footer>
 Thank you for your response
+
+
 </footer>
 
 
